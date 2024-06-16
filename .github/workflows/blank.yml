@@ -46,16 +46,16 @@ jobs:
           echo "No composer.json found, skipping Composer install"
         fi
 
-    #- name: Copy wp-config.php
-    #  run: cp wp-config-sample.php wp-config.php
+    - name: Copy wp-config.php
+      run: cp wp-config-sample.php wp-config.php
 
-    #- name: Update wp-config.php
-    #  run: |
-    #    sed -i "s/database_name_here/wordpress_test/" wp-config.php
-    #    sed -i "s/username_here/root/" wp-config.php
-    #    sed -i "s/password_here/root/" wp-config.php
-    #    echo "define('WP_DEBUG', true);" >> wp-config.php
-    #    echo "define('WP_DEBUG_LOG', true);" >> wp-config.php
+    - name: Update wp-config.php
+      run: |
+        sed -i "s/database_name_here/wordpress_test/" wp-config.php
+        sed -i "s/username_here/root/" wp-config.php
+        sed -i "s/password_here/root/" wp-config.php
+        echo "define('WP_DEBUG', true);" >> wp-config.php
+        echo "define('WP_DEBUG_LOG', true);" >> wp-config.php
 
     # - name: Deploy to Remote Server
     #   env:
