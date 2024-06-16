@@ -66,9 +66,3 @@ jobs:
     #     echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
     #     ssh-keyscan $REMOTE_HOST >> ~/.ssh/known_hosts
     #     rsync -avz --exclude '.git/' . $REMOTE_USER@$REMOTE_HOST:/path/to/your/project
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
