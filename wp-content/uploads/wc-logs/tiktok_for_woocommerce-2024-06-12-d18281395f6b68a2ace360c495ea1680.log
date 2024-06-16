@@ -1,0 +1,29 @@
+2024-06-12T12:57:19+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_66699b2fbc433httplocalhost8089polyshopwp-admin","smb_name":"PROD","redirect_url":"http:\/\/localhost:8089\/polyshop\/wp-admin\/"}
+ ajax: no
+2024-06-12T12:57:20+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+X-Tt-Logid: 20240612125730AA68FE259703CE5752DF,20240612125730AA68FE259703CE5752DF
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+x-tt-trace-host: 015b365286739be487fab80f50d5267d2de872d62c97a7305ee968a16ed57f1cd86d9f98c57b9d500a577c76d7dd2f9d72f00c652eeaeaede51a8a534e134e89568913a2ce4c34a146e235297f62f950c96e53ac92718904644bc2707618158594a7bd03b1345394c981ae19e88e92b2d3
+x-tt-trace-id: 00-240612125730AA68FE259703CE5752DF-40365FD763A261AF-00
+Server: TLB
+Content-Encoding: gzip
+Content-Length: 209
+X-Origin-Response-Time: 67,184.50.95.196
+X-Akamai-Request-ID: ea93aa8.2ea55b75
+Date: Wed, 12 Jun 2024 12:57:31 GMT
+X-Cache: TCP_MISS from a113-171-12-180.deploy.akamaitechnologies.com (AkamaiGHost/11.5.2-56372494) (-)
+Connection: close
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_MISS from a184-50-95-196.deploy.akamaitechnologies.com (AkamaiGHost/11.5.2-56372494) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=52, origin; dur=67
+Server-Timing: inner; dur=61
+X-Parent-Response-Time: 116,113.171.12.180
+
+{"code":0,"msg":"ok","data":{"redirect_uri":"http:\/\/localhost:8089\/polyshop\/wp-admin\/","app_secret":"ff6012e5a355f3cf1be7e8bd9db4830e9f13334e","external_data_key":"f355e7ba-8424-4354-be60-cc534b38e5af","app_id":"7379600143542124562"}}
+
